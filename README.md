@@ -2,20 +2,20 @@
 
 This repository is a centralized collection of Python notebooks dedicated to **Artificial Intelligence Security, Privacy Preservation, and Model Robustness**. The objective is to show, in small and reproducible examples, how AI and Large Language Model (LLM) systems fail and how to mitigate those failures with practical controls. Every notebook runs on **Google Colab** with one click.
 
-| Notebook | What you will learn | Related risks | Open |
-| --- | --- | --- | --- |
-| **[Adversarial Attacks](Adversarial_Attacks.ipynb)** | FGSM evasion on a fraud-like classifier, robustness curves, and adversarial training | MITRE ATLAS · NIST AI 100-2 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jrafa1607/AI_Security/blob/main/Adversarial_Attacks.ipynb) |
-| **[AI Hallucination](AI_Hallucination.ipynb)** | Factual inconsistencies in small language models | OWASP LLM09 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jrafa1607/AI_Security/blob/main/AI_Hallucination.ipynb) |
-| **[Prompt Injection](Prompt_Injection.ipynb)** | Direct and indirect prompt injection, and why allowlists enforce what prompts cannot | OWASP LLM01 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jrafa1607/AI_Security/blob/main/Prompt_Injection.ipynb) |
-| **[Guardrails](Guardrails.ipynb)** | Input normalization, PII redaction (CPF, cards, e-mail), tool allowlists by role, output schema validation, and canary tokens | OWASP LLM01, LLM02, LLM05, LLM06, LLM07 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jrafa1607/AI_Security/blob/main/Guardrails.ipynb) |
-| **[RAG Access Control](RAG_Access_Control.ipynb)** | Permission-aware retrieval, pre-filtering vs. post-filtering, sensitivity labels, and audit logs | OWASP LLM02, LLM08 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jrafa1607/AI_Security/blob/main/RAG_Access_Control.ipynb) |
-| **[Privacy & Data Minimization](Privacy_And_Data_Minimization.ipynb)** | Minimization, masking, and pseudonymization of personal data | OWASP LLM02 · LGPD | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jrafa1607/AI_Security/blob/main/Privacy_And_Data_Minimization.ipynb) |
-| **[Data Poisoning](Data_Poisoning.ipynb)** | Label corruption, backdoors, and data quality checks before training | OWASP LLM04 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jrafa1607/AI_Security/blob/main/Data_Poisoning.ipynb) |
-| **[Model Extraction & Inversion](Model_Extraction_And_Inversion.ipynb)** | Stealing a model through its API, membership inference, model inversion, and their defenses | OWASP LLM02, LLM10 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jrafa1607/AI_Security/blob/main/Model_Extraction_And_Inversion.ipynb) |
+| Notebook | Description |
+| --- | --- |
+| **[Prompt Injection](https://colab.research.google.com/github/jrafa1607/AI_Security/blob/main/Prompt_Injection.ipynb)** | Direct and indirect prompt injection, and why allowlists enforce what prompts cannot. *OWASP LLM01* |
+| **[Guardrails](https://colab.research.google.com/github/jrafa1607/AI_Security/blob/main/Guardrails.ipynb)** | Input normalization, PII redaction (CPF, cards, e-mail), tool allowlists by role, output schema validation, and canary tokens. *OWASP LLM01, LLM02, LLM05, LLM06, LLM07* |
+| **[RAG Access Control](https://colab.research.google.com/github/jrafa1607/AI_Security/blob/main/RAG_Access_Control.ipynb)** | Permission-aware retrieval, pre-filtering vs. post-filtering, sensitivity labels, and audit logs. *OWASP LLM02, LLM08* |
+| **[Privacy & Data Minimization](https://colab.research.google.com/github/jrafa1607/AI_Security/blob/main/Privacy_And_Data_Minimization.ipynb)** | Minimization, masking, and pseudonymization of personal data. *OWASP LLM02 · LGPD* |
+| **[Data Poisoning](https://colab.research.google.com/github/jrafa1607/AI_Security/blob/main/Data_Poisoning.ipynb)** | Label corruption, backdoors, and data quality checks before training. *OWASP LLM04* |
+| **[Adversarial Attacks](https://colab.research.google.com/github/jrafa1607/AI_Security/blob/main/Adversarial_Attacks.ipynb)** | FGSM evasion on a fraud-like classifier, robustness curves, and adversarial training. *MITRE ATLAS · NIST AI 100-2* |
+| **[Model Extraction & Inversion](https://colab.research.google.com/github/jrafa1607/AI_Security/blob/main/Model_Extraction_And_Inversion.ipynb)** | Stealing a model through its API, membership inference, model inversion, and their defenses. *OWASP LLM02, LLM10* |
+| **[AI Hallucination](https://colab.research.google.com/github/jrafa1607/AI_Security/blob/main/AI_Hallucination.ipynb)** | Factual inconsistencies in small language models. *OWASP LLM09* |
 
 #### ▶️ How to use
 
-1. Click **Open in Colab** on the notebook you want.
+1. Click the notebook name to open it in **Google Colab**.
 2. Run the cells from top to bottom (`Runtime > Run all`).
 3. Most notebooks use only the Python standard library and NumPy. *AI Hallucination* downloads a small model from Hugging Face.
 
