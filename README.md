@@ -4,14 +4,16 @@ This repository is a centralized collection of Python notebooks dedicated to **A
 
 | Notebook | Description |
 | --- | --- |
-| **[Prompt Injection](https://colab.research.google.com/github/jrafa1607/AI_Security/blob/main/Prompt_Injection.ipynb)** | Direct and indirect prompt injection, and why allowlists enforce what prompts cannot. *OWASP LLM01* |
-| **[Guardrails](https://colab.research.google.com/github/jrafa1607/AI_Security/blob/main/Guardrails.ipynb)** | Input normalization, PII redaction (CPF, cards, e-mail), tool allowlists by role, output schema validation, and canary tokens. *OWASP LLM01, LLM02, LLM05, LLM06, LLM07* |
-| **[RAG Access Control](https://colab.research.google.com/github/jrafa1607/AI_Security/blob/main/RAG_Access_Control.ipynb)** | Permission-aware retrieval, pre-filtering vs. post-filtering, sensitivity labels, and audit logs. *OWASP LLM02, LLM08* |
-| **[Privacy & Data Minimization](https://colab.research.google.com/github/jrafa1607/AI_Security/blob/main/Privacy_And_Data_Minimization.ipynb)** | Minimization, masking, and pseudonymization of personal data. *OWASP LLM02 · LGPD* |
-| **[Data Poisoning](https://colab.research.google.com/github/jrafa1607/AI_Security/blob/main/Data_Poisoning.ipynb)** | Label corruption, backdoors, and data quality checks before training. *OWASP LLM04* |
-| **[Adversarial Attacks](https://colab.research.google.com/github/jrafa1607/AI_Security/blob/main/Adversarial_Attacks.ipynb)** | FGSM evasion on a fraud-like classifier, robustness curves, and adversarial training. *MITRE ATLAS · NIST AI 100-2* |
-| **[Model Extraction & Inversion](https://colab.research.google.com/github/jrafa1607/AI_Security/blob/main/Model_Extraction_And_Inversion.ipynb)** | Stealing a model through its API, membership inference, model inversion, and their defenses. *OWASP LLM02, LLM10* |
-| **[AI Hallucination](https://colab.research.google.com/github/jrafa1607/AI_Security/blob/main/AI_Hallucination.ipynb)** | Factual inconsistencies in small language models. *OWASP LLM09* |
+| **[Prompt Injection](https://colab.research.google.com/github/jrafa1607/AI_Security/blob/main/Prompt_Injection.ipynb)** | Direct and indirect injection and defenses *(LLM01)* |
+| **[Guardrails](https://colab.research.google.com/github/jrafa1607/AI_Security/blob/main/Guardrails.ipynb)** | Input, tool, and output controls for LLMs *(LLM01, LLM05)* |
+| **[RAG Access Control](https://colab.research.google.com/github/jrafa1607/AI_Security/blob/main/RAG_Access_Control.ipynb)** | Permission-aware retrieval and leak prevention *(LLM08)* |
+| **[Privacy & Data Minimization](https://colab.research.google.com/github/jrafa1607/AI_Security/blob/main/Privacy_And_Data_Minimization.ipynb)** | Minimization, pseudonymization, and k-anonymity *(LLM02)* |
+| **[Data Poisoning](https://colab.research.google.com/github/jrafa1607/AI_Security/blob/main/Data_Poisoning.ipynb)** | Label corruption, backdoors, and data checks *(LLM04)* |
+| **[Adversarial Attacks](https://colab.research.google.com/github/jrafa1607/AI_Security/blob/main/Adversarial_Attacks.ipynb)** | Evasion attacks and adversarial training *(MITRE ATLAS)* |
+| **[Model Extraction & Inversion](https://colab.research.google.com/github/jrafa1607/AI_Security/blob/main/Model_Extraction_And_Inversion.ipynb)** | Model theft, membership inference, and inversion *(LLM10)* |
+| **[AI Hallucination](https://colab.research.google.com/github/jrafa1607/AI_Security/blob/main/AI_Hallucination.ipynb)** | Hallucinations, grounding, and abstention *(LLM09)* |
+
+Risk codes refer to the **OWASP Top 10 for LLM Applications 2025**.
 
 #### ▶️ How to use
 
