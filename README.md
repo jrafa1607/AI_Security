@@ -31,7 +31,7 @@ All examples use **synthetic data and fictional secrets** (for example, `DEMO-ON
 * **[CSA AI Controls Matrix](https://cloudsecurityalliance.org/blog/2025/07/10/introducing-the-csa-ai-controls-matrix-a-comprehensive-framework-for-trustworthy-ai)**
 * **[ENISA The Framework for AI Cybersecurity Practices (FAICP)](https://www.faicp-framework.com/)**
 * **[ISO/IEC 42001:2023](https://www.iso.org/standard/42001)**
-* **[ISO/IEC 27090](https://www.iso.org/standard/27090)**
+* **[ISO/IEC 27090:2026](https://www.iso.org/standard/27090)**
 * **[MITRE ATLAS SAFE-AI](https://atlas.mitre.org/pdf-files/SAFEAI_Full_Report.pdf)**
 * **[OWASP AI Testing Guide](https://owasp.org/www-project-ai-testing-guide/)**
 * **[OWASP Top 10 for LLMs](https://owasp.org/www-project-top-10-for-large-language-model-applications/)**
