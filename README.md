@@ -6,7 +6,8 @@ This repository is a centralized collection of Python notebooks dedicated to **A
 
 1. Click the notebook name to open it in **Google Colab**.
 2. Run the cells from top to bottom (`Runtime > Run all`).
-3. Most notebooks use only the Python standard library and NumPy. *AI Hallucination* downloads a small model from Hugging Face.
+3. Most notebooks use only the Python standard library and NumPy.
+4. Some notebooks has a download of small model from Hugging Face.
 
 All examples use **synthetic data and fictional secrets** (for example, `DEMO-ONLY-123`, `example.invalid`).
 
