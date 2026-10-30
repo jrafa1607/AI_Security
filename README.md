@@ -1,19 +1,6 @@
 ### 🛡️🔐 AI Security
 
-This repository is a centralized collection of Python notebooks dedicated to **Artificial Intelligence Security, Privacy Preservation, and Model Robustness**. The objective is to show, in small and reproducible examples, how AI and Large Language Model (LLM) systems fail and how to mitigate those failures with practical controls. Every notebook runs on **Google Colab** with one click.
-
-| Notebook | Description |
-| --- | --- |
-| **[Prompt Injection](https://colab.research.google.com/github/jrafa1607/AI_Security/blob/main/Prompt_Injection.ipynb)** | Direct and indirect injection and defenses *(LLM01)* |
-| **[Guardrails](https://colab.research.google.com/github/jrafa1607/AI_Security/blob/main/Guardrails.ipynb)** | Input, tool, and output controls for LLMs *(LLM01, LLM05)* |
-| **[RAG Access Control](https://colab.research.google.com/github/jrafa1607/AI_Security/blob/main/RAG_Access_Control.ipynb)** | Permission-aware retrieval and leak prevention *(LLM08)* |
-| **[Privacy & Data Minimization](https://colab.research.google.com/github/jrafa1607/AI_Security/blob/main/Privacy_And_Data_Minimization.ipynb)** | Minimization, pseudonymization, and k-anonymity *(LLM02)* |
-| **[Data Poisoning](https://colab.research.google.com/github/jrafa1607/AI_Security/blob/main/Data_Poisoning.ipynb)** | Label corruption, backdoors, and data checks *(LLM04)* |
-| **[Adversarial Attacks](https://colab.research.google.com/github/jrafa1607/AI_Security/blob/main/Adversarial_Attacks.ipynb)** | Evasion attacks and adversarial training *(MITRE ATLAS)* |
-| **[Model Extraction & Inversion](https://colab.research.google.com/github/jrafa1607/AI_Security/blob/main/Model_Extraction_And_Inversion.ipynb)** | Model theft, membership inference, and inversion *(LLM10)* |
-| **[AI Hallucination](https://colab.research.google.com/github/jrafa1607/AI_Security/blob/main/AI_Hallucination.ipynb)** | Hallucinations, grounding, and abstention *(LLM09)* |
-
-Risk codes refer to the **OWASP Top 10 for LLM Applications 2025**.
+This repository is a centralized collection of Python notebooks dedicated to **Artificial Intelligence Security, Privacy Preservation, and Model Robustness**. The objective is to show, in small and reproducible examples, how AI and Large Language Model (LLM) systems fail and how to mitigate those failures with practical controls. Every notebook runs on **Google Colab**.
 
 #### ▶️ How to use
 
