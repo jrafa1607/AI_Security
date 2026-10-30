@@ -1,6 +1,6 @@
 ### 🛡️🔐 AI Security
 
-This repository is a centralized collection of Python notebooks dedicated to **Artificial Intelligence Security, Privacy Preservation, and Model Robustness**. The objective is to show, in small and reproducible examples, how AI and Large Language Model (LLM) systems fail and how to mitigate those failures with practical controls. Every notebook runs on **Google Colab**.
+This repository is a centralized collection of Python notebooks dedicated to **Artificial Intelligence Security, Privacy Preservation, and Model Robustness**. The objective is to show, in small and reproducible examples, how AI and Large Language Model (LLM) systems fail and how to mitigate those failures with practical controls.
 
 #### ▶️ How to use
 
