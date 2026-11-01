@@ -23,7 +23,16 @@ Each link opens the notebook in **Google Colab**; run it with `Runtime > Run all
 
 #### 🔗📚 References
 
-[NIST AI RMF](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf) · [OWASP Top 10 for LLMs](https://genai.owasp.org/llm-top-10/) · [OWASP AI Testing Guide](https://owasp.org/www-project-ai-testing-guide/) · [MITRE ATLAS](https://atlas.mitre.org/) · [CSA AI Controls Matrix](https://cloudsecurityalliance.org/blog/2025/07/10/introducing-the-csa-ai-controls-matrix-a-comprehensive-framework-for-trustworthy-ai) · [ENISA FAICP](https://www.faicp-framework.com/) · [ISO/IEC 42001:2023](https://www.iso.org/standard/42001) · [ISO/IEC 27090:2026](https://www.iso.org/standard/27090)
+| Reference | Description |
+| --- | --- |
+| [NIST AI RMF 1.0](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf) | Framework to govern, map, measure, and manage AI risks |
+| [OWASP Top 10 for LLMs](https://genai.owasp.org/llm-top-10/) | The ten most critical security risks in LLM applications |
+| [OWASP AI Testing Guide](https://owasp.org/www-project-ai-testing-guide/) | Methodology for security testing of AI systems |
+| [MITRE ATLAS](https://atlas.mitre.org/) | Knowledge base of real-world adversary tactics against AI |
+| [CSA AI Controls Matrix](https://cloudsecurityalliance.org/blog/2025/07/10/introducing-the-csa-ai-controls-matrix-a-comprehensive-framework-for-trustworthy-ai) | Control framework for trustworthy AI in the cloud |
+| [ENISA FAICP](https://www.faicp-framework.com/) | European good practices for AI cybersecurity |
+| [ISO/IEC 42001:2023](https://www.iso.org/standard/42001) | Management system standard for AI |
+| [ISO/IEC 27090:2026](https://www.iso.org/standard/27090) | Guidance on security threats and controls for AI systems |
 
 ---
 
