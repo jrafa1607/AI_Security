@@ -10,16 +10,17 @@ Hands-on Python notebooks on **AI and LLM security**. Each one shows how an AI s
 
 #### 📓 Notebooks
 
-* **[Prompt Injection](https://colab.research.google.com/github/jrafa1607/AI_Security/blob/main/Prompt_Injection.ipynb)** — direct and indirect injection, and how to contain it
-* **[Guardrails](https://colab.research.google.com/github/jrafa1607/AI_Security/blob/main/Guardrails.ipynb)** — input, tool, and output controls around an LLM
-* **[RAG Access Control](https://colab.research.google.com/github/jrafa1607/AI_Security/blob/main/RAG_Access_Control.ipynb)** — retrieval that respects permissions
-* **[Privacy and Data Minimization](https://colab.research.google.com/github/jrafa1607/AI_Security/blob/main/Privacy_And_Data_Minimization.ipynb)** — masking, pseudonymization, and k-anonymity
-* **[Data Poisoning](https://colab.research.google.com/github/jrafa1607/AI_Security/blob/main/Data_Poisoning.ipynb)** — corrupted labels, backdoors, and detection
-* **[Adversarial Attacks](https://colab.research.google.com/github/jrafa1607/AI_Security/blob/main/Adversarial_Attacks.ipynb)** — evasion with FGSM and adversarial training
-* **[Model Extraction and Inversion](https://colab.research.google.com/github/jrafa1607/AI_Security/blob/main/Model_Extraction_And_Inversion.ipynb)** — model theft, membership inference, and inversion
-* **[AI Hallucination](https://colab.research.google.com/github/jrafa1607/AI_Security/blob/main/AI_Hallucination.ipynb)** — grounding and self-consistency checks
+* **[Prompt Injection](https://colab.research.google.com/github/jrafa1607/AI_Security/blob/main/Prompt_Injection.ipynb)** — direct and indirect injection, and how to contain it *(LLM01)*
+* **[Guardrails](https://colab.research.google.com/github/jrafa1607/AI_Security/blob/main/Guardrails.ipynb)** — input, tool, and output controls around an LLM *(LLM01, LLM02, LLM05, LLM06, LLM07)*
+* **[RAG Access Control](https://colab.research.google.com/github/jrafa1607/AI_Security/blob/main/RAG_Access_Control.ipynb)** — retrieval that respects permissions *(LLM02, LLM08)*
+* **[Privacy and Data Minimization](https://colab.research.google.com/github/jrafa1607/AI_Security/blob/main/Privacy_And_Data_Minimization.ipynb)** — masking, pseudonymization, and k-anonymity *(LLM02)*
+* **[Data Poisoning](https://colab.research.google.com/github/jrafa1607/AI_Security/blob/main/Data_Poisoning.ipynb)** — corrupted labels, backdoors, and detection *(LLM04)*
+* **[Adversarial Attacks](https://colab.research.google.com/github/jrafa1607/AI_Security/blob/main/Adversarial_Attacks.ipynb)** — evasion with FGSM and adversarial training *(MITRE ATLAS: evasion)*
+* **[Model Extraction and Inversion](https://colab.research.google.com/github/jrafa1607/AI_Security/blob/main/Model_Extraction_And_Inversion.ipynb)** — model theft, membership inference, and inversion *(LLM02, LLM10)*
+* **[AI Hallucination](https://colab.research.google.com/github/jrafa1607/AI_Security/blob/main/AI_Hallucination.ipynb)** — grounding and self-consistency checks *(LLM09)*
 
-Each link opens the notebook in **Google Colab**; run it with `Runtime > Run all`. To run locally, use `pip install -r requirements.txt`.
+> Codes refer to the [OWASP Top 10 for LLM Applications 2025](https://genai.owasp.org/llm-top-10/).<br> 
+> Each link opens the notebook in **Google Colab**; run it with `Runtime > Run all`. To run locally, use `pip install -r requirements.txt`.
 
 ---
 
