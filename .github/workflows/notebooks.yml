@@ -1,0 +1,28 @@
+name: Notebooks CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  run-notebooks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install dependencies
+        run: pip install "numpy>=1.26,<3" nbmake pytest
+      # AI_Hallucination.ipynb is skipped: it downloads a model and its output is random by design
+      - name: Execute notebooks
+        run: |
+          pytest --nbmake --nbmake-timeout=300 \
+            Adversarial_Attacks.ipynb Data_Poisoning.ipynb Guardrails.ipynb \
+            Model_Extraction_And_Inversion.ipynb Privacy_And_Data_Minimization.ipynb \
+            Prompt_Injection.ipynb RAG_Access_Control.ipynb

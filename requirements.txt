@@ -1,0 +1,9 @@
+# Core: seven notebooks need only NumPy (plus the standard library)
+numpy>=1.26,<3
+
+# AI_Hallucination.ipynb only
+transformers>=4.44,<5
+torch>=2.2
+
+# Running locally
+jupyterlab>=4.2
