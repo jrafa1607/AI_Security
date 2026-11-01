@@ -19,7 +19,7 @@ Hands-on Python notebooks on **AI and LLM security**. Each one shows how an AI s
 * **[Model Extraction and Inversion](https://colab.research.google.com/github/jrafa1607/AI_Security/blob/main/Model_Extraction_And_Inversion.ipynb)** — model theft, membership inference, and inversion *(LLM02, LLM10)*
 * **[AI Hallucination](https://colab.research.google.com/github/jrafa1607/AI_Security/blob/main/AI_Hallucination.ipynb)** — grounding and self-consistency checks *(LLM09)*
 
-Codes refer to the [OWASP Top 10 for LLM Applications 2025](https://genai.owasp.org/llm-top-10/).<br> 
+Codes refer to the [**OWASP Top 10 for LLM Applications**](https://genai.owasp.org/llm-top-10/).<br> 
 Each link opens the notebook in **Google Colab**; run it with `Runtime > Run all`. To run locally, use `pip install -r requirements.txt`.
 
 ---
