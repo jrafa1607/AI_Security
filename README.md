@@ -4,6 +4,8 @@
 
 Hands-on Python notebooks on **AI and LLM security**. Each one shows how an AI system fails and which control mitigates the failure, using small, reproducible examples with synthetic data.
 
+![AI Security](assets/ai_security.png)
+
 ---
 
 #### 📓 Notebooks
