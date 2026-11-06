@@ -5,9 +5,10 @@ type: software
 authors:
   - family-names: "Evangelista"
     given-names: "João Rafael Gonçalves"
+    orcid: "https://orcid.org/0000-0003-3541-8354"
+version: "1.0.0"
 repository-code: "https://github.com/jrafa1607/AI_Security"
 date-released: "2026-09-04"
-orcid: "https://orcid.org/0000-0003-3541-8354"
 keywords:
   - ai-security
   - llm-security
@@ -17,4 +18,3 @@ keywords:
   - data-poisoning
   - adversarial-machine-learning
   - privacy
-version: "1.0.0"
