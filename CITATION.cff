@@ -3,8 +3,8 @@ message: "If you use this repository, please cite it as below."
 title: "AI Security: Hands-on Notebooks on AI and LLM Security, Privacy, and Robustness"
 type: software
 authors:
-  - family-names: "Gonçalves Evangelista"
-    given-names: "João Rafael"
+  - family-names: "Evangelista"
+    given-names: "João Rafael Gonçalves"
 repository-code: "https://github.com/jrafa1607/AI_Security"
 date-released: "2026-09-04"
 keywords:
