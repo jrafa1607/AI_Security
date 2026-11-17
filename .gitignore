@@ -3,3 +3,8 @@ __pycache__/
 .venv/
 .env
 *.pyc
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/

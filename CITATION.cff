@@ -1,14 +1,16 @@
 cff-version: 1.2.0
 message: "If you use this repository, please cite it as below."
 title: "AI Security: Hands-on Notebooks on AI and LLM Security, Privacy, and Robustness"
+abstract: "Hands-on Python notebooks that show how AI and LLM systems fail and which controls mitigate each failure: prompt injection, guardrails, RAG access control, privacy and data minimization, data poisoning, adversarial evasion, model extraction and membership inference, and hallucination. Examples use synthetic data and are mapped to the OWASP Top 10 for LLM Applications 2025 and MITRE ATLAS."
 type: software
 authors:
   - family-names: "Evangelista"
     given-names: "João Rafael Gonçalves"
     orcid: "https://orcid.org/0000-0003-3541-8354"
-version: "1.0.0"
+version: "1.1.0"
+date-released: "2026-11-17"
+url: "https://github.com/jrafa1607/AI_Security"
 repository-code: "https://github.com/jrafa1607/AI_Security"
-date-released: "2026-09-04"
 keywords:
   - ai-security
   - llm-security
@@ -17,6 +19,8 @@ keywords:
   - rag
   - data-poisoning
   - adversarial-machine-learning
+  - membership-inference
   - privacy
+  - hallucination
   - owasp
   - mitre-atlas

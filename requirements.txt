@@ -1,7 +1,7 @@
 # Core: seven notebooks need only NumPy (plus the standard library)
 numpy>=1.26,<3
 
-# AI_Hallucination.ipynb only
+# AI_Hallucination.ipynb only (downloads Qwen/Qwen2.5-0.5B-Instruct, about 1 GB)
 transformers>=4.44,<5
 torch>=2.2
 
