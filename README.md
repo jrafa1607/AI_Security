@@ -21,9 +21,7 @@ Hands-on Python notebooks on **AI and LLM security**. Each one shows how an AI s
 | [Model Extraction](https://colab.research.google.com/github/jrafa1607/AI_Security/blob/main/Model_Extraction_And_Inversion.ipynb) | Theft and membership | LLM02, 10 | T0024 |
 | [AI Hallucination](https://colab.research.google.com/github/jrafa1607/AI_Security/blob/main/AI_Hallucination.ipynb) | Grounding, consistency | LLM09 | — |
 
-OWASP codes refer to the [OWASP Top 10 for LLM Applications 2025](https://genai.owasp.org/llm-top-10/); ATLAS IDs refer to [MITRE ATLAS](https://atlas.mitre.org/) techniques (prefix `AML.`).<br>
-Each link opens the notebook in **Google Colab**; run it with `Runtime > Run all`. To run locally, use `pip install -r requirements.txt`.<br>
-Seven notebooks need only NumPy and are executed on every push by the CI. *AI Hallucination* downloads a small model ([Qwen2.5-0.5B-Instruct](https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct)) and is run manually, since sampled answers vary by design.
+OWASP codes refer to the [OWASP Top 10 for LLM Applications 2025](https://genai.owasp.org/llm-top-10/); ATLAS IDs refer to [MITRE ATLAS](https://atlas.mitre.org/) techniques (prefix `AML.`). Each link opens the notebook in **Google Colab**; run it with `Runtime > Run all`. To run locally, use `pip install -r requirements.txt`. Seven notebooks need only NumPy and are executed on every push by the CI. *AI Hallucination* downloads a small model ([Qwen2.5-0.5B-Instruct](https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct)) and is run manually, since sampled answers vary by design.
 
 ---
 
